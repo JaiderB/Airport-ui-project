@@ -1,0 +1,47 @@
+@import "generic-attributes.css";
+
+.button-login{
+
+    -fx-text-fill: airport-text-color-white;
+    -fx-padding: 15px 35px;
+    -fx-min-height: 50px;
+    -fx-min-width: 150px;
+
+    -fx-max-width: 180px;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+}
+
+.active-button{
+    -fx-background-color: -airport-state-element-active;
+    -fx-cursor: hand;
+}
+
+.disabled-button{
+    -fx-background-color: -airport-state-element-disabled;
+
+}
+
+
+.link-text{
+    -fx-padding: 10px 20px;
+}
+
+.link-text-active{
+
+    -fx-cursor: hand;
+    -fx-text-fill: -airport-state-element-gray-active;
+
+}
+
+.link-text-active:hover{
+
+    -fx-text-fill: -airport-state-element-active;
+
+}
+
+
+.link-text-disabled{
+
+    -fx-text-fill: -airport-state-element-disabled;
+}

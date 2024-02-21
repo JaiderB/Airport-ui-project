@@ -1,0 +1,54 @@
+@font-face {
+    src: url("org/example/ui/Fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    src: url("org/example/ui/Fonts/Montserrat-Light.ttf");
+}
+
+@font-face{
+    src: url("org/example/ui/Fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    src: url("org/example/ui/Fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face{
+    src: url("org/example/ui/Fonts/Montserrat-Thin.ttf");
+}
+
+@font-face{
+    src: url("org/example/ui/Fonts/Montserrat-Medium.ttf");
+}
+
+* {
+    -fx-font-family: "Montserrat Medium";
+    -fx-font-size: 20px;
+    -airport-basic-color: rgb(25, 79, 151);
+    -airport-basic-color-soft: rgb(198, 220, 233);
+    -airport-secondary-color: rgb(241, 107, 28);
+
+    -airport-neutral-gray-strong: rgba(63, 62, 62, 100);
+    -airport-neutral-gray-medium-88: rgba(95, 94, 94, 88);
+    -airport-neutral-gray-semi-medium-88: rgba(152, 151, 151, 88);
+    -airport-neutral-gray-semi-soft: rgba(217, 217, 217, 100);
+    -airport-neutral-gray-soft: rgba(246, 246, 246, 100);
+
+    -airport-neutral-black-soft: rgba(63, 62, 62, 100);
+    -airport-neutral-black-strong: rgba(0, 0, 0, 100);
+
+    -airport-neutral-white-strong: rgba(255, 255, 255, 100);
+
+    -airport-semantic-error-color: rgb(255, 46, 0);
+    -airport-semantic-success-color: rgb(103, 115, 52);
+    -airport-semantic-warning-color: rgb(240, 205, 36);
+    -airport-semantic-info-color: rgb(25, 79, 151);
+
+    -airport-state-element-active: -airport-basic-color;
+    -airport-state-element-disabled: -airport-neutral-gray-medium-88;
+    -airport-state-element-gray-active: -airport-neutral-gray-semi-medium-88;
+
+    airport-text-color-white: -airport-neutral-white-strong;
+
+}
